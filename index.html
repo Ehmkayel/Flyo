@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container my-5">
+    <a href="#" class="navbar-brand">
+     <img src="./images/logo.svg" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navhamburger" aria-controls="navhamburger" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navhamburger">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a href="#" class="nav-link text-dark">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link text-dark">Team</a></li>
+      <li class="nav-item"><a href="#" class="nav-link text-dark">Sign In</a></li>
+    </ul>
+  </div>
+</div>
+  </nav>
+  <section class="banner">
+    <div class="container mb-5 pb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <p class="display-6 fw-bold">
+            All your files in one secure location, accessible anywhere.
+          </p>
+          <p class="lead"></p>
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+          <form class="row g-2 mt-3">
+          <div class="col-auto">
+            <label for="email" class="visually-hidden">Email</label>
+            <input type="password" class="form-control" id="email" placeholder="Enter your email..">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary px-5"> Get Started</button>
+          </div>
+        </form>
+        </div>
+        <div class="col-lg-7">
+          <img src="./images/illustration-1.svg" class="img-fluid">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="productive" style="background-image: url(./images/bg-curve-desktop.svg); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-5 pt-5">
+          <p class="display-6 fw-bold">
+            Stay productive, wherever you are
+          </p>
+          <p>Never let location be an issue when accessing your files. Fylo has you 
+            covered for all of your file storage needs.</p>
+            <p>Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!</p>
+              <a href="#" class="link-success">See how Fylo works<img src="./images/icon-arrow.svg"></a>
+              <div class="card mt-4" style="width: 18rem;">
+                <div class="card-body">
+                  <img src="./images/icon-quotes.svg" class="card-title">
+                  <p class="card-text">  Fylo has improved our team productivity by an order of magnitude. Since 
+                    making the switch our team has become a well-oiled collaboration machine.</p>
+                    <div class="d-flex">
+                      <img src="./images/avatar-testimonial.jpg" class="img-fluid rounded-pill">
+                        <small class="fw-bold ms-2">Kyle Burton<br>Founder & CEO, Huddle</small>
+                    </div>  
+                </div>
+              </div>
+        </div>
+        <div class="col pt-5">
+          <img src="./images/illustration-2.svg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="above-footer">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-5 text-light">
+          <p class="h3">Get early access today</p>
+          <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+            If you have any questions, our support team would be happy to help you.</p>
+        </div>
+        <div class="col-lg-5 ">
+          <div>
+            <form>
+              <label for="email" class="form-label"></label>
+              <input type="email" class="form-control form-style" id="email" placeholder="email@example.com">
+            </form>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-lg text-center mt-3">Get Started For Free</button>
+          </div>   
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="pt-5">
+    <div class="container pt-5">
+      <img src="./images/logo.svg">
+      <div class="row">
+        <div class="col-lg-3 pt-3">
+         <p><img src="./images/phone.png">Phone: +1-543-123-4567</p> 
+           <p><img src="./images/email.png"> example@fylo.com</p> 
+          
+        </div>
+        <div class="col-lg-3">
+          <ul class="pt-3">
+            <li class="nav-item"><a href="#" class="nav-link text-light"> About Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">Jobs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">Press</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light"> Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="pt-3">
+            <li class="nav-item"><a href="#" class="nav-link text-light">Contact Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light">Terms</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-light"> Privacy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 pt-3">
+          <img src="./images/facebook.png">
+          <img src="./images/twitter.png">
+            <img src="./images/instagram.png">
+          
+        </div>
+      </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

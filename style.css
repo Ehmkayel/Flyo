@@ -1,0 +1,29 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --Moderate-Cyan: hsl(0, 0%, 75%);
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+    --Bright-Blue: hsl(0, 0%, 75%);
+
+}
+
+.above-footer{
+    background: var(--Desaturated-Blue);
+}
+footer{
+    background: var(--Very-Dark-Blue);
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+}
+@media (max-width: 576px) {
+    .logo{
+        width: 100px; 
+    }
+}
